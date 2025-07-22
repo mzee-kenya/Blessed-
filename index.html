@@ -1,29 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Emmanuel Ministers - Home</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>Emmanuel Ministers | Home</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f0f0f5;
+      color: #333;
+    }
+    header {
+      background-color: #4a148c;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+    nav {
+      background: #6a1b9a;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 30px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .gallery img {
+      width: 100px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    footer {
+      background: #4a148c;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 15px;
+      background: #6a1b9a;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+    .btn:hover {
+      background: #38006b;
+    }
+  </style>
 </head>
 <body>
+
   <header>
-    <h1>Emmanuel Ministers</h1>
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About</a>
-      <a href="events.html">Events</a>
-      <a href="contact.html">Contact</a>
-    </nav>
+    <h1>Welcome to Emmanuel Ministers</h1>
+    <p>A Home for All | Kamnara SDA Youth Ministry</p>
   </header>
 
-  <section class="hero">
-    <h2>Home for All 🙏</h2>
-    <p>Welcome to the Emmanuel Ministers! Youth empowered to serve with purpose.</p>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="chat.html">Chat Room</a>
+    <a href="#events">Events</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section>
+    <h2>About Us</h2>
+    <p>
+      Emmanuel Ministers is a vibrant youth-led ministry based at Kamnara SDA Church, committed to empowering young people
+      spiritually, socially, and intellectually. We are a family united by faith and purpose.
+    </p>
+  </section>
+
+  <section id="events">
+    <h2>Upcoming Events</h2>
+    <ul>
+      <li><strong>Youth Vespers</strong> – Friday at 9:00pm</li>
+      <li><strong>Sabbath Praise & Worship</strong> – Every Sabbath Afternoon</li>
+      <li><strong>Youth Week of Prayer</strong> – Coming Soon!</li>
+    </ul>
+    <a href="chat.html" class="btn">Join Our Live Chat</a>
+  </section>
+
+  <section>
+    <h2>Mission & Vision</h2>
+    <p><strong>Mission:</strong> To nurture, inspire, and empower youth through ministry and fellowship.</p>
+    <p><strong>Vision:</strong> A generation anchored in Christ and passionate about service.</p>
+  </section>
+
+  <section>
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/100" alt="Photo 1">
+      <img src="https://via.placeholder.com/100" alt="Photo 2">
+      <img src="https://via.placeholder.com/100" alt="Photo 3">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:emmanuelministers@gmail.com">emmanuelministers@gmail.com</a></p>
+    <p>Location: Kamnara SDA Church, Kenya</p>
   </section>
 
   <footer>
-    <p>&copy; 2025 Emmanuel Ministers | Powered by Mzee Kenya</p>
+    <p>© 2025 Emmanuel Ministers | Built with 💜 by Mzee Kenya</p>
   </footer>
+
 </body>
-</html>
+  </html>
